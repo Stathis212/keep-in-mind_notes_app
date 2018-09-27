@@ -1,0 +1,34 @@
+{
+  "name": "keep-in-mind_notes_app",
+  "version": "1.0.0",
+  "description": "basic crud app for keeping notes",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server --output-public-path=/build/",
+    "json:server": "json-server --watch api/db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stathis212/keep-in-mind_notes_app.git"
+  },
+  "author": "stathis212",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4"
+  },
+  "dependencies": {
+    "json-server": "^0.12.1"
+  },
+  "bugs": {
+    "url": "https://github.com/Stathis212/keep-in-mind_notes_app/issues"
+  },
+  "homepage": "https://github.com/Stathis212/keep-in-mind_notes_app#readme"
+}
